@@ -1,0 +1,3 @@
+FROM eclipse-temurin:17
+COPY target/demopro-0.0.1-SNAPSHOT.jar demopro-0.0.1-SNAPSHOT.jar
+CMD [ "java","-jar","demopro-0.0.1-SNAPSHOT.jar" ]
